@@ -21,7 +21,7 @@ Example
 ```python
 from serial.tools import list_ports
 
-import pydobot
+import mypydobot
 
 available_ports = list_ports.comports()
 print(f'available ports: {[x.device for x in available_ports]}')

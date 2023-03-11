@@ -12,9 +12,6 @@ device = mypydobot.Dobot(port=port, verbose=True)
 (x, y, z, r, j1, j2, j3, j4) = device.pose()
 print(f'x:{x} y:{y} z:{z} j1:{j1} j2:{j2} j3:{j3} j4:{j4}')
 
-device.set_sensor()
-
-cnt = 0
 try:   
 	time.sleep(1)
 	device.move_to(x + 20, y, z, r, wait=True)
