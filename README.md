@@ -12,7 +12,7 @@ Installation
 Install driver from https://www.silabs.com/products/development-tools/software/usb-to-uart-bridge-vcp-drivers.
 
 ```
-pip install mypydobot
+pip install https://github.com/ryosukea0832/pydobot.git
 ```
 
 Example
